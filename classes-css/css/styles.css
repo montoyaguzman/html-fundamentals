@@ -1,0 +1,14 @@
+/* selector de TAG */
+p {
+    text-decoration: underline;
+}
+
+/* selector de CLASE */
+.my-p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* selector de ID */
+#texto {
+    background-color: yellow;
+}
