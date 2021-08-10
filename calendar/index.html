@@ -31,7 +31,7 @@
 
     </form> -->
 
-    <form action="">
+    <!-- <form action="">
 
 
         <label for="calendario">
@@ -40,7 +40,42 @@
         </label>
         <input type="submit"/>
 
-    </form>
+    </form> -->
+
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="" id="nombre" autocomplete="name" required/>
+            </label>
+            <label for="correo">
+                <span>Email</span>
+                <input type="email" id="correo" autocomplete="email" required/>
+            </label>
+            <select name="paises" id="">
+                <option value="Mx">México</option>
+                <option value="Es">España</option>
+                <option value="Ar">Argentina</option>
+            </select>
+            <input list="cursos" />
+            <datalist id="cursos"> 
+                <option value="1">JavaScript</option>
+                <option value="2">Php</option>
+                <option value="3">Ruby</option>
+                <option value="4">Python</option>
+                <option value="5">Java</option>
+                <option value="6">Node</option>
+                <option value="7">HTML</option>
+            </datalist>
+            <label for="cp">
+                <span>CP</span>
+                <input type="number" id="cp" autocomplete="postal-code" required/>
+            </label>
+
+            <input type="submit" />
+
+        </form>
+    </main>
     
 </body>
 </html>
