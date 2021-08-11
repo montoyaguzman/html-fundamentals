@@ -1,3 +1,10 @@
+/*
+selector {
+    propiedad: valor;
+    // declaracion //
+}
+*/
+
 /* selector de TAG */
 p {
     text-decoration: underline;
