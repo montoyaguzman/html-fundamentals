@@ -1,0 +1,14 @@
+html {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: inherit;
+    /*
+        Inherit. La propiedad debe de heredar los valores de su elemento padre.
+        Initial. Estamos dando el valor inicial y predefinido por el navegador.
+        Unset. Tratara de heredar el valor de su padre y de no ser así este de 
+        colocará el valor de la propiedad en su valor inicial.
+    */
+}
