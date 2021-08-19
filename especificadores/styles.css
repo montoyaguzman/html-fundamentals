@@ -1,0 +1,35 @@
+/* Hermano Adyacente: a + b
+Todo los elementos 'b' precedidos por un 'a' reciben los estilos 
+*/
+h2 + p {
+    color: red;
+}
+/* los parrafos sucesores a h2 tendran fuente en rojo */
+
+
+/* Hermano General: a ~ b
+Todo los elementos 'b' que sean hermanos de 'a' recibe los estilos
+*/
+h2 ~ p {
+    text-decoration: underline;
+}
+/* Los <p> que esten a la misma altura de <h2> seran subrayados */
+
+
+/* Hijos: a > b
+Todos los elementos 'b' que son hijos directos de 'a'
+*/
+div > p {
+    color: green;
+}
+/* todos los <p> que tienen como padre un div tendran fuente en color verde */
+
+
+/* Descendientes: a  b
+Todas las etiquetas 'b' que esten dentro de una 'a'
+*/
+div p {
+    text-decoration: overline;
+}
+/* Todos los <p> que esten dentro de un <div>, no necesariamente su padre directo,
+sino un contenedor a niveles mas altos por ejemplo.  */
