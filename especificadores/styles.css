@@ -86,3 +86,11 @@ p:not(.fancy) {
 color: brown;
 }
 /* La fuente de todos los p que no tengan la clase fancy seran de color café*/
+
+.pseudoelementos p::before {
+    content: "prefijo";
+}
+
+.pseudoelementos p::after {
+    content: "sufijo";
+}
