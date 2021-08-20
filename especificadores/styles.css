@@ -1,4 +1,4 @@
-/* Hermano Adyacente: a + b
+/* Hermanos Adyacentes: a + b
 Todo los elementos 'b' precedidos por un 'a' reciben los estilos 
 */
 h2 + p {
@@ -7,7 +7,7 @@ h2 + p {
 /* los parrafos sucesores a h2 tendran fuente en rojo */
 
 
-/* Hermano General: a ~ b
+/* Hermanos Generales: a ~ b
 Todo los elementos 'b' que sean hermanos de 'a' recibe los estilos
 */
 h2 ~ p {
@@ -16,7 +16,7 @@ h2 ~ p {
 /* Los <p> que esten a la misma altura de <h2> seran subrayados */
 
 
-/* Hijos: a > b
+/* Elementos Hijos: a > b
 Todos los elementos 'b' que son hijos directos de 'a'
 */
 div > p {
@@ -33,3 +33,20 @@ div p {
 }
 /* Todos los <p> que esten dentro de un <div>, no necesariamente su padre directo,
 sino un contenedor a niveles mas altos por ejemplo.  */
+
+/* Selector de atributos */
+a[title] { 
+    color: greenyellow;
+}
+/* Elementos <a> con un atributo title */
+
+/* Elementos <a> con un href que coincida con "https://example.org" */
+a[href="https://example.org"] {
+    color: green;
+  }
+  
+  /* Elementos <a> con un href que contenga "example" */
+  a[href*="example"] {
+    font-size: 2em;
+    text-decoration: none;
+  }
