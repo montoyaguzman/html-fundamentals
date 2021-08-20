@@ -50,3 +50,39 @@ a[href="https://example.org"] {
     font-size: 2em;
     text-decoration: none;
   }
+
+
+div .main {
+    display: flex;
+}
+
+/* pseudo childs */
+.main div:first-child {
+    font-weight: bold;
+/* El primer div dentro de la clase main tendrá fuente en rojo */}
+
+/* pseudo childs */
+.main div:nth-child(2n) {
+    color: blue;
+}
+/* Cada 2 elementos div(2, 4, 6) el color sera azul */
+
+/* first-of-type : Primer elmento de un grupo de hermanos */
+.main div:first-of-type {
+    color: red;
+}
+/* El primer div dentro de la clase main tendrá fuente en rojo */
+
+/* empty es usado en cualquier elemento sin hijos */
+div:empty {
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+}
+/* Todos los div vacios seran un cuadro verde de 10 x 10 pixeles */
+
+/* pseudoclase de negacion */
+p:not(.fancy) {
+color: brown;
+}
+/* La fuente de todos los p que no tengan la clase fancy seran de color café*/
