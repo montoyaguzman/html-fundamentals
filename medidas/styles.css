@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62%; /* 10 px = 1rem */
+}
+
+main {
+    background-color: black;
+    /* width: 600px; fijo en cualquier pantalla */
+    width: 100%; /* ajustable a la pantalla */
+    height: 350px;
+}
+
+main > p {
+    color: white;
+    font-size: 18px;
+    /* font-size: 50%; */
+}
+
+.text-container {
+    font-size: 1.5em; /* toma una proporcion de su padre */
+}
+
+.text-container-rem {
+    font-size: 62.5%;
+}
+
+.text-container-rem > p {
+    font-size: 1rem; /* toma un valor relativo respecto al root (html) */
+}
+
+.main-viewport {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+.div-min-max {
+    width: 80%;
+    margin: 0 auto;
+    background-color: azure;
+    min-width: 320px; /* se recomienda uso de width base */
+    max-width: 600px; /* se recomienda uso de width base */
+    min-height: 200px; /* height: 500px; */
+}
