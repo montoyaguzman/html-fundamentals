@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    border: 0.3rem solid black;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    height: 50vh;
+    align-items: center; /* base-line, strech */
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    /* flex-basis: 10 rem; */
+    /* flex-grow: 1; */
+}   
+
+.box1 {
+    background-color: aqua;
+    /* order: n; los que tienen un orden se orden con base en ello, los q no tengan se van hacia la izquierda*/
+}
+
+.box2 {
+    background-color: tomato;
+    /* flex-grow: 1; */
+}
+
+.box3 {
+    background-color: purple;
+}
+
+.box4 {
+    background-color: darkkhaki;
+}
+
+.box5 {
+    background-color: darkcyan;
+}
+
+.box6 {
+    background-color: violet;
+}
