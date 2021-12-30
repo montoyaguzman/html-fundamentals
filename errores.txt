@@ -1,0 +1,10 @@
+4. Formato recomendado para fotos
+
+
+11. Orden en que se toman las declaraciones CSS
+    Importancia 
+        > Especificidad 
+            > Orden de las fuentes
+
+25. Mejor forma de hacer descriptivo lo que se llena en formularios1
+placeholder
